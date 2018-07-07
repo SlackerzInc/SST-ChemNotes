@@ -57,7 +57,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ObL-Wz-K3Q"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Formulae" id="5iV-aa-7hP"/>
+                    <tabBarItem key="tabBarItem" title="Formulae" image="outline_donut_small_black_24pt_1x" id="5iV-aa-7hP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XKb-rA-3gg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,6 +138,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="outline_donut_small_black_24pt_1x" width="24" height="24"/>
         <image name="outline_info_black_24pt_1x" width="24" height="24"/>
         <image name="outline_notes_black_24pt_1x" width="24" height="24"/>
         <image name="outline_table_chart_black_24pt_1x" width="24" height="24"/>
