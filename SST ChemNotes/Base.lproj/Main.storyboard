@@ -45,11 +45,11 @@
         <!--Notes-->
         <scene sceneID="bSu-7d-JXF">
             <objects>
-                <tableViewController id="KWc-tD-0Uc" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" springLoaded="YES" id="PSn-TU-PZw">
+                <tableViewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="KWc-tD-0Uc" customClass="NotesTableViewController" customModule="SST_ChemNotes" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" springLoaded="YES" id="PSn-TU-PZw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections/>
                         <connections>
                             <outlet property="dataSource" destination="KWc-tD-0Uc" id="W1d-QA-Yh3"/>
@@ -60,7 +60,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MTo-Mg-7ki" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="438"/>
+            <point key="canvasLocation" x="750" y="425"/>
         </scene>
         <!--About-->
         <scene sceneID="QvL-gf-kuB">
@@ -90,8 +90,8 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="T60-zI-wQ3" kind="relationship" relationship="viewControllers" id="6h3-wS-nra"/>
-                        <segue destination="EBX-uD-5Ly" kind="relationship" relationship="viewControllers" id="lwa-32-BCg"/>
                         <segue destination="KWc-tD-0Uc" kind="relationship" relationship="viewControllers" id="xLY-t0-2I0"/>
+                        <segue destination="EBX-uD-5Ly" kind="relationship" relationship="viewControllers" id="lwa-32-BCg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
