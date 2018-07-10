@@ -20,7 +20,7 @@ class FourthViewController: UIViewController {
     }
     
     @IBAction func nameBtn2(_ sender: UIButton) {
-            let alertController = UIAlertController(title: "Fun Fact:", message: "Lorum Ipsum", preferredStyle: UIAlertControllerStyle.alert)
+            let alertController = UIAlertController(title: "Fun Fact:", message: "Bottom Text", preferredStyle: UIAlertControllerStyle.alert)
             alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
             self.present(alertController, animated: true, completion: nil)
     }
