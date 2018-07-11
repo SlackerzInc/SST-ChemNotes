@@ -9,7 +9,29 @@
 import UIKit
 
 class FourthViewController: UIViewController {
-
+    
+//Sets up buttons for funfacts starts here
+    @IBAction func nameBtn1(_ sender: UILongPressGestureRecognizer) {
+        if sender.state == UIGestureRecognizerState.began {
+            let alertController = UIAlertController(title: "Fun Fact:", message: "Lorum Ipsum", preferredStyle: UIAlertControllerStyle.alert)
+            alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alertController, animated: true, completion: nil)
+        }
+    }
+    
+    @IBAction func nameBtn2(_ sender: UIButton) {
+            let alertController = UIAlertController(title: "Fun Fact:", message: "Bottom Text", preferredStyle: UIAlertControllerStyle.alert)
+            alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alertController, animated: true, completion: nil)
+    }
+    
+    @IBAction func nameBtn3(_ sender: UIButton) {
+            let alertController = UIAlertController(title: "Fun Fact:", message: "Lorum Ipsum", preferredStyle: UIAlertControllerStyle.alert)
+            alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alertController, animated: true, completion: nil)
+    }
+//Setup for buttons ends here
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,15 +43,5 @@ class FourthViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
